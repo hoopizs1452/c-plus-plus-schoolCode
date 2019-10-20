@@ -1,6 +1,7 @@
 # Imformation
 
-##實習練習##
+實習練習
+========
 
 
 
@@ -10,6 +11,6 @@
 
 
 
-
-###Homework###
+Homework
+---------
 第二次作業:Enigma
