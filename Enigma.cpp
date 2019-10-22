@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	char pn,ch;   //pn:+,-;ch:字母 
-	int pan,num,i=1;  //pan:平移位數;num:一串數字
+	char pn,ch;   //pn:+,- ; ch:letter(A to Z)
+	int pan,num,i=1;  //pan:Number of translations ; num:a string of number
 	cin >> pn >> pan >> ch >> num;
 	
 	if((int)ch>=65 or (int)ch<=90)
