@@ -3,7 +3,7 @@
 上課實例
 --------
 <ul>
-  <li><a herf="https://github.com/hoopizs1452/compiler/blob/master/5x5%E6%98%9F%E6%98%9F.cpp">5X5星星</li>
+  <li>[https://github.com/hoopizs1452/compiler/blob/master/5x5%E6%98%9F%E6%98%9F.cpp]>5X5星星</li>
   <li>function</li>
   <li>右下三角</li>
   <li>左上三角</li>
