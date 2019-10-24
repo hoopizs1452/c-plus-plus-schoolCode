@@ -3,7 +3,7 @@
 上課實例
 --------
 <ul>
-  <li><style color:blue>5X5星星</li>
+  <li><style="color:blue">5X5星星</li>
   <li>function</li>
   <li>右下三角</li>
   <li>左上三角</li>
