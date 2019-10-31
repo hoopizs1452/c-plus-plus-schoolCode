@@ -51,3 +51,19 @@
 Homework
 --------
 第二次作業:Enigma
+
+期中考練習
+---------
+<h3>期中考練習A</h3>
+<ol>
+  <li>A-1</li>
+  <li>A-2</li>
+  <li>A-3</li>
+  <li>A-4</li>
+  <li>A-5</li>
+  <li>A-6</li>
+  <li>A-7</li>
+  <li>A-8</li>
+  <li>A-9</li>
+  <li>A-10</li>
+</ol>
