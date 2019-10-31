@@ -7,7 +7,11 @@ int main()
 	int a;
    	int b;
    	cin >> a >> b;
-	cout <<  (a*b)/gcd( a, b ) << endl;
+   	
+   	if(a>b)
+		cout << (a*b)/gcd(a,b) << endl;
+	else
+		cout << (a*b)/gcd(b,a) << endl;
 
 }
 
