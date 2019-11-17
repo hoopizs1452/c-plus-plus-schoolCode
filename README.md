@@ -49,7 +49,13 @@
   <li>計算Pi</li>
   <li>美式足球</li>
 </ul>
-  
+<h3>第六次複習</h3>
+<ul>
+  <li>繪圖表</li>
+  <li>三合數</li>
+  <li>銷量計算</li>
+  <li></li>
+</ul>
 Homework
 --------
 第二次作業:Enigma
