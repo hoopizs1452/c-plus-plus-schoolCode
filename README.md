@@ -56,9 +56,13 @@
   <li>銷量計算</li>
   <li></li>
 </ul>
-Homework
+
+作業
 --------
-第二次作業:Enigma
+<h3>第二次作業</h3>
+<ul>
+  <li>Enigma</li>
+</ul>
 
 期中考練習
 ---------
