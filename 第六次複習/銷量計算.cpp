@@ -1,10 +1,11 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
-double secondType(int);
 
 int main()
 {
-	double total=0,money=0;
+	double prod_1,prod_2,prod_3,prod_4,prod_5;
+	prod_1=prod_2=prod_3=prod_4=prod_5=0;
 	
 	while(1)
 	{
@@ -18,35 +19,27 @@ int main()
 			double sv;
 			cin >> sv;
 			
-			money = secondType(pn) * sv;
-			cout << money << " ";
-			total += money;
+			switch(pn)
+			{
+				case 1:
+					prod_1 += 2.98*sv;
+					break;
+				case 2:
+					prod_2 += 4.50*sv;
+					break;
+				case 3:
+					prod_3 += 9.98*sv;
+					break;
+				case 4:
+					prod_4 += 4.49*sv;
+					break;
+				case 5:
+					prod_5 += 6.87*sv;
+					break;
+			}
 		}
 	}
-	cout << total << endl;
-}
-
-double secondType(int num)
-{
-	double m;
-	
-	switch(num)
-	{
-		case 1:
-			m = 2.98;
-			break;
-		case 2:
-			m = 4.50;
-			break;
-		case 3:
-			m = 9.98;
-			break;
-		case 4:
-			m = 4.49;
-			break;
-		case 5:
-			m = 6.87;
-			break;
-	}
-	return m;
+	cout << setprecision(2) << fixed << prod_1 << " " 
+	<< prod_2 << " " << prod_3 << " " << prod_4 << " " 
+	<< prod_5 << " " << prod_1+prod_2+prod_3+prod_4+prod_5 << endl;
 }
