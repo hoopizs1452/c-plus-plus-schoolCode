@@ -7,6 +7,7 @@
   <li>function</li>
   <li>右下三角</li>
   <li>左上三角</li>
+  <li>hanoi</li>
 </ul>
 
 實習練習
