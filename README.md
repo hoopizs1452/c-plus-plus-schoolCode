@@ -69,6 +69,15 @@
   <li>Exact Square Number/li>
   <li>Factorial</li>
 </ul>
+<h3>第九次複習</h3>
+<ul>
+  <li>Factorial再現</li>
+  <li>最大公因數再現</li>
+  <li>費式數列</li>
+  <li>次方再現</li>
+  <li>完全平方數相加</li>
+  <li>任意字元正方形</li>
+</ul>
 
 作業
 --------
