@@ -66,7 +66,7 @@
   <li>Reverse Digits Function</li>
   <li>Quality Points for Numeric Grades</li>
   <li>Square of Asterisks</li>
-  <li>Exact Square Number/li>
+  <li>Exact Square Number</li>
   <li>Factorial</li>
 </ul>
 <h3>第九次複習</h3>
