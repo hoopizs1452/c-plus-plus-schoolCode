@@ -7,6 +7,9 @@ const int tests = 3;
 
 void outputGrades( const int [][ tests ], int, int );
 double average( const int [], int );
+double average(const int setOfGrades[], const int);
+int maximum(const int grades[][ tests ], int, int);
+int minimum(const int grades[][ tests ], int, int);
 
 int main()
 {
@@ -23,7 +26,49 @@ int main()
         { 87, 93, 73 } };
 
    outputGrades( studentGrades, students, tests );
+   cout << "Highest of grades: " << maximum(studentGrades, students, tests) << endl;
+   cout << "lowest of grades: " << minimum(studentGrades, students, tests) << endl;
+}
 
+int maximum(const int grades[][ tests ], int pupils, int exams)
+{
+	int max = grades[0][0];
+	
+	for(int student=0; student<pupils; student++)
+	{
+		for(int test=0; test<exams; test++)
+		{
+			if(grades[student][test]>max)
+				max = grades[student][test];
+		}
+	}
+	return max;
+}
+
+int minimum(const int grades[][ tests ], int pupils, int exams)
+{
+	int min = grades[0][0];
+	
+	for(int student=0; student<pupils; student++)
+	{
+		for(int test=0; test<exams; test++)
+		{
+			if(grades[student][test]<min)
+				min = grades[student][test];
+		}
+	}
+	return min;
+}
+
+double average(const int setOfGrades[], const int gradeCount)
+{
+	int total=0;
+	
+	for(int i=0; i<gradeCount; i++)
+	{
+		total += setOfGrades[i];
+	}
+	return static_cast<double>(total)/gradeCount;
 }
 
 void outputGrades( const int grades[][ tests ], int pupils, int exams )
@@ -33,6 +78,7 @@ void outputGrades( const int grades[][ tests ], int pupils, int exams )
 	{
 		cout << "Test " << test+1 << "  ";
 	}
+	cout << "Average";
 	cout << endl;
 	for(int student=0; student<pupils; student++)
 	{
@@ -41,6 +87,7 @@ void outputGrades( const int grades[][ tests ], int pupils, int exams )
 		{
 			cout << setw(8) << grades[student][test];
 		}
+		cout << setw(9) << setprecision(2) << fixed << average(grades[student], exams);
 		cout << endl;
 	}
 }
