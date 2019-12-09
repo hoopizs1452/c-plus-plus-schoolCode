@@ -40,7 +40,7 @@ double average(int array[], int m)
 }
 
 int main(){
-	const int arraySize=5; 
+	const int arraySize=100; 
 	int score[arraySize];
 	for(int i=0;i<arraySize;i++){
 		cin>>score[i];
