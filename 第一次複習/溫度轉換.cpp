@@ -5,10 +5,7 @@ using namespace std;
 int main()
 {
 		int x;
-		double y;
 		cin >> x;
 		
-		y = ( x - 32 ) * 5 % 9;
-		
-		cout << setprecision(3) << fixed << y << endl;
+		cout << setprecision(3) << fixed << ( x - 32 ) * 5  9.0 << endl;
 }
